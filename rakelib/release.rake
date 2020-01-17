@@ -137,7 +137,7 @@ namespace :release do
     Utils.print_header "Releasing version #{v} on GitHub"
     puts changelog
 
-    json = post('https://api.github.com/repos/SwiftGen/SwiftGen/releases', 'application/json') do |req|
+    json = post('https://api.github.com/repos/moia-hari/SwiftGen/releases', 'application/json') do |req|
       req.body = { :tag_name => v, :name => v, :body => changelog, :draft => false, :prerelease => false }.to_json
     end
 

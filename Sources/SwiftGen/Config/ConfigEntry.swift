@@ -21,6 +21,8 @@ struct ConfigEntry {
     // Legacy: remove this once we stop supporting the output key at subcommand level
     static let output = "output"
     static let params = "params"
+    static let separator = "separator"
+    static let exclude = "excludeKeys"
     static let templateName = "templateName"
     static let templatePath = "templatePath"
     // Legacy: remove this once we stop supporting the old paths key (replaced by inputs)
@@ -30,6 +32,8 @@ struct ConfigEntry {
   var inputs: [Path]
   var filter: String?
   var outputs: [ConfigEntryOutput]
+  var separator: String
+  var exclude: [String]
 
   mutating func makingRelativeTo(inputDir: Path?, outputDir: Path?) {
     if let inputDir = inputDir {
@@ -60,6 +64,13 @@ extension ConfigEntry {
     }
 
     filter = yaml[Keys.filter] as? String
+    separator = (yaml[Keys.separator] as? String) ?? "_"
+
+    if let keysToFilter = yaml[Keys.exclude] {
+      self.exclude = try ConfigEntry.parseValueOrArray(yaml: keysToFilter, key: Keys.exclude) { "" + $0 }
+    } else {
+      self.exclude = []
+    }
 
     if let outputs = yaml[Keys.outputs] {
       do {

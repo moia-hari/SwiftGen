@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 47;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -364,12 +365,12 @@
 		0F195D4E04055990267ABCF61022AAD7 /* Pods-swiftgen-SwiftGen UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftgen-SwiftGen UnitTests-Info.plist"; sourceTree = "<group>"; };
 		1059D41E588C3ED64CA72F6ACCEBF853 /* Yams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yams.h; path = Sources/Yams/Yams.h; sourceTree = "<group>"; };
 		1158082CDD1380C93D4E5FD2AC9F309A /* Commander.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Commander.modulemap; sourceTree = "<group>"; };
-		11B880C199C5698784E87FADA27C1B7E /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PathKit.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B880C199C5698784E87FADA27C1B7E /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D4FD99A34902E967592097CDA332D7 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/Context.swift; sourceTree = "<group>"; };
-		151C0A7732A6AC227916830CEF4502EB /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanner.c; path = Sources/CYaml/src/scanner.c; sourceTree = "<group>"; };
+		151C0A7732A6AC227916830CEF4502EB /* scanner.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanner.c; path = Sources/CYaml/src/scanner.c; sourceTree = "<group>"; };
 		157B1B4168293C040726E7F4AE4BFB5C /* shim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = shim.swift; path = Sources/Yams/shim.swift; sourceTree = "<group>"; };
 		169964EF3ADC9476F8117D2A5D97B977 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Lexer.swift; sourceTree = "<group>"; };
-		16BE42132B6E92D0DAB0145C424A8F19 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = writer.c; path = Sources/CYaml/src/writer.c; sourceTree = "<group>"; };
+		16BE42132B6E92D0DAB0145C424A8F19 /* writer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = writer.c; path = Sources/CYaml/src/writer.c; sourceTree = "<group>"; };
 		1ED99442CA8CE2CDA0C66E7A243D06BD /* Pods-SwiftGenKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGenKit-dummy.m"; sourceTree = "<group>"; };
 		20F24F1FDF4A704B3779C8660D752907 /* Pods-SwiftGenKit-SwiftGenKit UnitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests-umbrella.h"; sourceTree = "<group>"; };
 		21851608C6FCC1B27BFA53521A282D6B /* Pods-swiftgen-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftgen-Info.plist"; sourceTree = "<group>"; };
@@ -395,7 +396,7 @@
 		3CCA2DFAA40DC52F41A87BD2246BE5F8 /* Pods-SwiftGenKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGenKit-Info.plist"; sourceTree = "<group>"; };
 		3D420A8A123EF22E18DC2BFDD57DCD9D /* Pods-swiftgen-SwiftGen UnitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swiftgen-SwiftGen UnitTests.modulemap"; sourceTree = "<group>"; };
 		3E66BA64B47C1847E43D60CA63FAFEE1 /* SwiftIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftIdentifier.swift; path = Sources/StencilSwiftKit/SwiftIdentifier.swift; sourceTree = "<group>"; };
-		40514EA3A4AC48756684F5ACF5D80253 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Commander.framework; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40514EA3A4AC48756684F5ACF5D80253 /* Commander.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Commander.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4063701D26F764EF06ADCC4F514E68F4 /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Yams/Resolver.swift; sourceTree = "<group>"; };
 		419991498F7AEE2D1C76609B7FFC2871 /* Template.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Template.swift; path = Sources/Template.swift; sourceTree = "<group>"; };
 		4210D7D0DE8F8DE4315E9EA61CD3E683 /* Pods-swiftgen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftgen.release.xcconfig"; sourceTree = "<group>"; };
@@ -421,28 +422,28 @@
 		5DFD2765611A8AF2DDEDAEA9899D3A3B /* Pods-swiftgen-SwiftGen UnitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftgen-SwiftGen UnitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E0958D0DBBF1B8F9FF356F03D85C6F5 /* StencilSwiftKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StencilSwiftKit.xcconfig; sourceTree = "<group>"; };
 		5E6BF0A59E051DD283D006DAFAD35135 /* Stencil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Stencil-umbrella.h"; sourceTree = "<group>"; };
-		639EC3A58AE310B330DE4ED2EDFD3FE9 /* Pods_swiftgen_SwiftGen_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swiftgen_SwiftGen_UnitTests.framework; path = "Pods-swiftgen-SwiftGen UnitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		639EC3A58AE310B330DE4ED2EDFD3FE9 /* Pods_swiftgen_SwiftGen_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftgen_SwiftGen_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D9149652F905BD845A792A7E6215EA /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Kanna.modulemap; sourceTree = "<group>"; };
 		67184B91D75B1257D94C04C19CCC0CF3 /* Yams.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Yams.modulemap; sourceTree = "<group>"; };
 		6D28957331EBE2FE274E5FF12EAB2879 /* PathKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PathKit-dummy.m"; sourceTree = "<group>"; };
 		6D7711300FD849AB4126B8CA4FECAA9D /* Pods-SwiftGenKit-SwiftGenKit UnitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7178695924C80607AE812F19625086B9 /* Yams-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Yams-Info.plist"; sourceTree = "<group>"; };
 		72661FAA924DA9B0CC9489E74EDDD404 /* Pods-swiftgen-Templates UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftgen-Templates UnitTests.release.xcconfig"; sourceTree = "<group>"; };
-		75957C6AC2A6D442F0589F53788198BE /* Pods_SwiftGenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftGenKit.framework; path = "Pods-SwiftGenKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75957C6AC2A6D442F0589F53788198BE /* Pods_SwiftGenKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGenKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77A4239C7ACB52C288D8AFFD411590EA /* Node.Mapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.Mapping.swift; path = Sources/Yams/Node.Mapping.swift; sourceTree = "<group>"; };
 		7B102F2FB41E6DA93D08C105D9F21F1E /* PathKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PathKit-prefix.pch"; sourceTree = "<group>"; };
-		7DCCAA6429ED8F4C2E4FE63BEA517A91 /* Pods_swiftgen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swiftgen.framework; path = "Pods-swiftgen.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DCCAA6429ED8F4C2E4FE63BEA517A91 /* Pods_swiftgen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftgen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8027B57759637B0616B3D3E4D569CEFA /* Loader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = Sources/Loader.swift; sourceTree = "<group>"; };
 		81A184A26EF88C825CE409DEEBEDD176 /* Yams.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Yams.xcconfig; sourceTree = "<group>"; };
 		87D0381FFAD73A1F10F5839FCCE10FC4 /* Filters+Numbers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Filters+Numbers.swift"; path = "Sources/StencilSwiftKit/Filters+Numbers.swift"; sourceTree = "<group>"; };
 		881A78E472F30D0B2101BC568D16641A /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
 		885A3B27F0DE0C5F473DE785EDB14BDE /* Pods-SwiftGenKit-SwiftGenKit UnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests-dummy.m"; sourceTree = "<group>"; };
-		89B034E6827E3921A6C0D4E071A3B28D /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; name = reader.c; path = Sources/CYaml/src/reader.c; sourceTree = "<group>"; };
+		89B034E6827E3921A6C0D4E071A3B28D /* reader.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = reader.c; path = Sources/CYaml/src/reader.c; sourceTree = "<group>"; };
 		8AAD1DCC27AF70CEA163CB13CF02A524 /* Pods-swiftgen-Templates UnitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftgen-Templates UnitTests-umbrella.h"; sourceTree = "<group>"; };
 		8B80D8ACD498468D4841052112BD7569 /* Stencil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Stencil-dummy.m"; sourceTree = "<group>"; };
 		8B8DF86C516D8CDBE3B540EFAA64B4BF /* Constructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constructor.swift; path = Sources/Yams/Constructor.swift; sourceTree = "<group>"; };
 		8BC225EACDA1B297BB61235F7951B63B /* StencilSwiftTemplate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StencilSwiftTemplate.swift; path = Sources/StencilSwiftKit/StencilSwiftTemplate.swift; sourceTree = "<group>"; };
-		8BFDAC3625C61C467DFE87EA94BE7A4B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BFDAC3625C61C467DFE87EA94BE7A4B /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CEE27A00D5B88D363B398E89AEC435C /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
 		8D5056925670E7714384E89FCE4CA173 /* Pods-swiftgen-SwiftGen UnitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-swiftgen-SwiftGen UnitTests-frameworks.sh"; sourceTree = "<group>"; };
 		8DA2B0698B7F5E6146FD0440DE1FEC51 /* Pods-SwiftGenKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftGenKit-umbrella.h"; sourceTree = "<group>"; };
@@ -450,11 +451,11 @@
 		8ED0DE6C990E3AF3EE906F7323C1E88D /* CallMacroNodes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallMacroNodes.swift; path = Sources/StencilSwiftKit/CallMacroNodes.swift; sourceTree = "<group>"; };
 		90BBD4D98F7654CB6BA095718B40A6D2 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Errors.swift; sourceTree = "<group>"; };
 		90D4005B9A11C995350A494E157D4318 /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Yams/Tag.swift; sourceTree = "<group>"; };
-		90EC9603525EBE298452D78B53E309AD /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; name = api.c; path = Sources/CYaml/src/api.c; sourceTree = "<group>"; };
+		90EC9603525EBE298452D78B53E309AD /* api.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = api.c; path = Sources/CYaml/src/api.c; sourceTree = "<group>"; };
 		9165E0054C75E733B34E31C7ED0D953E /* Pods-swiftgen-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-swiftgen-acknowledgements.plist"; sourceTree = "<group>"; };
 		92C81696076E744A7B226C74CBE9675A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		962439B2C168D3E1E23FFFCCBE30364A /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		969522BAACDB446A2BC42A610725ADAC /* Pods_swiftgen_Templates_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_swiftgen_Templates_UnitTests.framework; path = "Pods-swiftgen-Templates UnitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		969522BAACDB446A2BC42A610725ADAC /* Pods_swiftgen_Templates_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftgen_Templates_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		969FF87A3D9F90566742EBD7E7B579C9 /* Stencil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Stencil-Info.plist"; sourceTree = "<group>"; };
 		97F500842ABF76B064BBD023A683BDA9 /* Pods-swiftgen-Templates UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftgen-Templates UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		98909EAC3D8B144E5349D55651E36D3D /* Parameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parameters.swift; path = Sources/StencilSwiftKit/Parameters.swift; sourceTree = "<group>"; };
@@ -463,7 +464,7 @@
 		9CC83EBC8FCD2D05361B30FF36451A9F /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Yams/Node.swift; sourceTree = "<group>"; };
 		9D1D85693625AAF0F6C0164439F7E16F /* Pods-SwiftGenKit-SwiftGenKit UnitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D3D83A83F283B13C550EBF590013811 /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Kanna/Deprecated.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A03E8041000DA7B4E00E127B06418B9A /* Pods-swiftgen-SwiftGen UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftgen-SwiftGen UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A049C350646FE26E2F0589D5555803BC /* ForTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForTag.swift; path = Sources/ForTag.swift; sourceTree = "<group>"; };
 		A1DBCCAF45CAFE1C3C7332B00FECF13B /* Pods-swiftgen-Templates UnitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-swiftgen-Templates UnitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -484,16 +485,16 @@
 		BBB77BA8708EBAD7626CC5781DD06781 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
 		BC21417B982EDF7D52768DDACFA6BF4D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		BC7301AB2B52579B1ED8B499328DF3DC /* KeyPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyPath.swift; path = Sources/KeyPath.swift; sourceTree = "<group>"; };
-		C301360322AF160E1D0DE537089E8C33 /* StencilSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StencilSwiftKit.framework; path = StencilSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C301360322AF160E1D0DE537089E8C33 /* StencilSwiftKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StencilSwiftKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C302763707EC9407061E42ACF7ED8590 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
-		C714C0D2DDE9CBC2B4A045C2D8969971 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = emitter.c; path = Sources/CYaml/src/emitter.c; sourceTree = "<group>"; };
+		C714C0D2DDE9CBC2B4A045C2D8969971 /* emitter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = emitter.c; path = Sources/CYaml/src/emitter.c; sourceTree = "<group>"; };
 		C7C689780CE9BE1E64F317D128C38AB4 /* Kanna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Kanna-Info.plist"; sourceTree = "<group>"; };
 		C986F48D69751ACD394FB50D992C495C /* Pods-SwiftGenKit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftGenKit-acknowledgements.plist"; sourceTree = "<group>"; };
 		CB1DEE2E64136C5CCD2FFAC4EE29A53B /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Sources/Yams/Encoder.swift; sourceTree = "<group>"; };
 		CC25EC037F7ED6A532BCA62F90B60307 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Commander/Error.swift; sourceTree = "<group>"; };
 		CD33D0881F38E3F46D0A50AC7313E153 /* PathKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PathKit-umbrella.h"; sourceTree = "<group>"; };
-		CD8B8A4EAA780F160B996AB40A9D2852 /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; name = parser.c; path = Sources/CYaml/src/parser.c; sourceTree = "<group>"; };
-		D5D2ADFEED0859DFD784743D685CE9E7 /* Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8B8A4EAA780F160B996AB40A9D2852 /* parser.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = parser.c; path = Sources/CYaml/src/parser.c; sourceTree = "<group>"; };
+		D5D2ADFEED0859DFD784743D685CE9E7 /* Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E72A091A5474EC035CE6AF77BFCBAC /* Include.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Include.swift; path = Sources/Include.swift; sourceTree = "<group>"; };
 		D72FF87E734D77E9C43EFC16116AC311 /* StencilSwiftKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StencilSwiftKit-Info.plist"; sourceTree = "<group>"; };
 		D883CC3FE9F613BBED18D255FFB1FB1C /* Node.Sequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.Sequence.swift; path = Sources/Yams/Node.Sequence.swift; sourceTree = "<group>"; };
@@ -503,7 +504,7 @@
 		DEC9B2B06861D02928092B500FBE72C6 /* Yams-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Yams-prefix.pch"; sourceTree = "<group>"; };
 		E0B7041C557733EC4C2B45AAB9F8D34C /* Pods-SwiftGenKit-SwiftGenKit UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftGenKit-SwiftGenKit UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E138AAF5D346377B65C9D2087CF00D6D /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E14F3F4095B95EC88FCB04C79AE6C7BC /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Yams.framework; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E14F3F4095B95EC88FCB04C79AE6C7BC /* Yams.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Yams.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E166C617F0BDB1576F6F415CAA832FAA /* Pods-swiftgen-SwiftGen UnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-swiftgen-SwiftGen UnitTests-dummy.m"; sourceTree = "<group>"; };
 		E510E83AD786D10C235C2D57E47F2FEC /* Pods-swiftgen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-swiftgen-umbrella.h"; sourceTree = "<group>"; };
 		EAD005AB81203FEAB720AA2859EE5EA6 /* ArgumentParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArgumentParser.swift; path = Sources/Commander/ArgumentParser.swift; sourceTree = "<group>"; };
@@ -513,7 +514,7 @@
 		EFF6E5D36B5A24033AB07D87C078071C /* PathKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PathKit-Info.plist"; sourceTree = "<group>"; };
 		F001038FA25F14E9729388817D10C113 /* Filters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filters.swift; path = Sources/StencilSwiftKit/Filters.swift; sourceTree = "<group>"; };
 		F17DBD0A8329BE7B1249ED7C7716D5C5 /* Commands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commands.swift; path = Sources/Commander/Commands.swift; sourceTree = "<group>"; };
-		F1EE3B485A086266B5C740F5243D9703 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Stencil.framework; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EE3B485A086266B5C740F5243D9703 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49637FACE782842A08DFBDC1EBDDF56 /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = Sources/StencilSwiftKit/Environment.swift; sourceTree = "<group>"; };
 		F6442F6A1ED6478856218F1CD69CDD99 /* Stencil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Stencil.modulemap; sourceTree = "<group>"; };
 		F6E9F3C9DF3B83C955201DF5176B4FAD /* Pods-swiftgen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-swiftgen.modulemap"; sourceTree = "<group>"; };
@@ -634,7 +635,6 @@
 				ECA54D4BD19FFDA540D3B86DE26770A9 /* Group.swift */,
 				7A2D7C8A8D8FF4582F2FBF542C98231A /* Support Files */,
 			);
-			name = Commander;
 			path = Commander;
 			sourceTree = "<group>";
 		};
@@ -693,7 +693,6 @@
 				BBB77BA8708EBAD7626CC5781DD06781 /* libxmlParserOption.swift */,
 				B64EE1E9EBCDEC5C7C2F14D5A2E0A357 /* Support Files */,
 			);
-			name = Kanna;
 			path = Kanna;
 			sourceTree = "<group>";
 		};
@@ -786,7 +785,6 @@
 				33AAB205123321D0397D2E22F04F0B49 /* Variable.swift */,
 				5FF4F72D7785BBCFA1A70A6AC72519D0 /* Support Files */,
 			);
-			name = Stencil;
 			path = Stencil;
 			sourceTree = "<group>";
 		};
@@ -854,7 +852,6 @@
 			children = (
 				5CEE32FFD0A65044A9BEEA224ED68ECF /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -934,7 +931,6 @@
 				3E66BA64B47C1847E43D60CA63FAFEE1 /* SwiftIdentifier.swift */,
 				649DBBBA83902A7F952ADCB69978C63C /* Support Files */,
 			);
-			name = StencilSwiftKit;
 			path = StencilSwiftKit;
 			sourceTree = "<group>";
 		};
@@ -953,7 +949,6 @@
 				FD03502299D953D92E7265E60ED87226 /* PathKit.swift */,
 				86929CCCD220A342E00430F45054C1A6 /* Support Files */,
 			);
-			name = PathKit;
 			path = PathKit;
 			sourceTree = "<group>";
 		};
@@ -988,7 +983,6 @@
 				1059D41E588C3ED64CA72F6ACCEBF853 /* Yams.h */,
 				61448A2DFD9B2AB899E5691D9667D0B6 /* Support Files */,
 			);
-			name = Yams;
 			path = Yams;
 			sourceTree = "<group>";
 		};
@@ -1343,13 +1337,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1130;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -1808,7 +1803,6 @@
 			baseConfigurationReference = E0B7041C557733EC4C2B45AAB9F8D34C /* Pods-SwiftGenKit-SwiftGenKit UnitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1843,7 +1837,6 @@
 			baseConfigurationReference = 97F500842ABF76B064BBD023A683BDA9 /* Pods-swiftgen-Templates UnitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1878,7 +1871,6 @@
 			baseConfigurationReference = 72661FAA924DA9B0CC9489E74EDDD404 /* Pods-swiftgen-Templates UnitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1912,6 +1904,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1961,8 +1954,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1972,7 +1964,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F1BDE5296EA4CF0B4F12CFA45ECF2 /* Kanna.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2005,6 +1996,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2070,7 +2062,6 @@
 			baseConfigurationReference = 590DC23C60516CE2BB2CE97D69B2D23F /* Pods-SwiftGenKit.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2105,7 +2096,6 @@
 			baseConfigurationReference = A682AA6CA7BDC7D57D20EA2CD88539C4 /* Pods-swiftgen.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2139,7 +2129,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53ACE3445AC71A863EBBCED1CFC45360 /* Stencil.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2172,7 +2161,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA2F5C588BB5E4B3A4355D8A1F4FF29A /* Commander.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2205,7 +2193,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57EFD32C2F9B684A98954E639EF20A9A /* SwiftLint.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
@@ -2220,7 +2207,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D4F3D03B4E75920F91CF33D424A3954 /* PathKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2253,7 +2239,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81A184A26EF88C825CE409DEEBEDD176 /* Yams.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2286,7 +2271,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BA2F5C588BB5E4B3A4355D8A1F4FF29A /* Commander.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2320,7 +2304,6 @@
 			baseConfigurationReference = 2394828A9CFE6D6719D78C211D3376E2 /* Pods-SwiftGenKit-SwiftGenKit UnitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2354,7 +2337,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 53ACE3445AC71A863EBBCED1CFC45360 /* Stencil.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2388,7 +2370,6 @@
 			baseConfigurationReference = 270B035E1A68F77E1C5BBE0C693355BF /* Pods-swiftgen-SwiftGen UnitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2423,7 +2404,6 @@
 			baseConfigurationReference = A03E8041000DA7B4E00E127B06418B9A /* Pods-swiftgen-SwiftGen UnitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2457,7 +2437,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81A184A26EF88C825CE409DEEBEDD176 /* Yams.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2490,7 +2469,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E0958D0DBBF1B8F9FF356F03D85C6F5 /* StencilSwiftKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2523,7 +2501,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E0958D0DBBF1B8F9FF356F03D85C6F5 /* StencilSwiftKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2557,7 +2534,6 @@
 			baseConfigurationReference = 4210D7D0DE8F8DE4315E9EA61CD3E683 /* Pods-swiftgen.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2591,7 +2567,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 385F1BDE5296EA4CF0B4F12CFA45ECF2 /* Kanna.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2624,7 +2599,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D4F3D03B4E75920F91CF33D424A3954 /* PathKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2657,7 +2631,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57EFD32C2F9B684A98954E639EF20A9A /* SwiftLint.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
@@ -2673,7 +2646,6 @@
 			baseConfigurationReference = F93D7033B28B9D564B7764F33B36638B /* Pods-SwiftGenKit.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

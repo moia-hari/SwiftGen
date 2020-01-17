@@ -13,6 +13,7 @@ public enum Strings {
     case failureOnLoading(path: String)
     case invalidFormat
     case invalidPlaceholder(previous: Strings.PlaceholderType, new: Strings.PlaceholderType)
+    case dependenciesNotInjected
 
     public var description: String {
       switch self {
@@ -24,6 +25,8 @@ public enum Strings {
         return "Invalid strings file"
       case .invalidPlaceholder(let previous, let new):
         return "Invalid placeholder type \(new) (previous: \(previous))"
+      case .dependenciesNotInjected:
+        return "Separator and Keys to filter out are not injected"
       }
     }
   }
@@ -31,6 +34,8 @@ public enum Strings {
   public final class Parser: SwiftGenKit.Parser {
     var tables = [String: [Entry]]()
     public var warningHandler: Parser.MessageHandler?
+    public var keysToFilterOut: [String]?
+    public var separator: String?
 
     public init(options: [String: Any] = [:], warningHandler: Parser.MessageHandler? = nil) {
       self.warningHandler = warningHandler
@@ -42,20 +47,28 @@ public enum Strings {
     public func parse(path: Path, relativeTo parent: Path) throws {
       let name = path.lastComponentWithoutExtension
 
-      guard tables[name] == nil else {
-        throw ParserError.duplicateTable(name: name)
+      guard let keysToFilterOut = keysToFilterOut, let separator = separator  else {
+        throw ParserError.dependenciesNotInjected
       }
+
       guard let data = try? path.read() else {
         throw ParserError.failureOnLoading(path: path.string)
       }
-
       let plist = try PropertyListSerialization.propertyList(from: data, format: nil)
-      guard let dict = plist as? [String: String] else {
+      guard let dict = plist as? [String: Any] else {
         throw ParserError.invalidFormat
       }
 
-      tables[name] = try dict.map { key, translation in
-        try Entry(key: key, translation: translation)
+      let entries = try dict.map { key, value -> Entry in
+        let translation = (value as? String) ?? "This is a `stringsdict` format"
+        return try Entry(key: key, translation: translation, keysToFilterOut: keysToFilterOut, separator: separator)
+      }
+
+      if var existingEntries = tables[name] {
+        existingEntries.append(contentsOf: entries)
+        tables[name] = existingEntries
+      } else {
+        tables[name] = entries
       }
     }
   }

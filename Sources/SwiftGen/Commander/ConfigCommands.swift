@@ -33,6 +33,10 @@ extension ConfigEntry {
     let parser = try parserCommand.parserType.init(options: [:]) { msg, _, _ in
       logMessage(.warning, msg)
     }
+
+    (parser as? Strings.Parser)?.separator = separator
+    (parser as? Strings.Parser)?.keysToFilterOut = exclude
+
     let filter = try Filter(pattern: self.filter ?? parserCommand.parserType.defaultFilter)
     try parser.searchAndParse(paths: inputs, filter: filter)
     let context = parser.stencilContext()

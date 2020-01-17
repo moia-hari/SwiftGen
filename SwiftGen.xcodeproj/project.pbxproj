@@ -38,6 +38,7 @@
 		37DC60381F98D7DD00B7B31C /* config-missing-paths.yml in Resources */ = {isa = PBXBuildFile; fileRef = 37DC60311F98D1DA00B7B31C /* config-missing-paths.yml */; };
 		37DC60391F98D7DD00B7B31C /* config-missing-template.yml in Resources */ = {isa = PBXBuildFile; fileRef = 37DC602B1F98D1D900B7B31C /* config-missing-template.yml */; };
 		37DC603B1F98E74E00B7B31C /* config-absolute-paths-prefix.yml in Resources */ = {isa = PBXBuildFile; fileRef = 37DC603A1F98E74600B7B31C /* config-absolute-paths-prefix.yml */; };
+		4773395623D6F1560019806B /* Combinable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4773395523D6F1560019806B /* Combinable.swift */; };
 		5DE172C4BAE478DDAA63064F /* Pods_swiftgen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C00832FEC9F060E93DAD1228 /* Pods_swiftgen.framework */; };
 		80F8014301BF496E905CA2CF /* Pods_SwiftGenKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16DF0A0F13A222BCA7B60102 /* Pods_SwiftGenKit.framework */; };
 		846BDF9321ADB71B00DDCEE9 /* config-with-env-placeholder.yml in Resources */ = {isa = PBXBuildFile; fileRef = 846BDF9221ADB71B00DDCEE9 /* config-with-env-placeholder.yml */; };
@@ -150,6 +151,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.storyboard";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -160,6 +163,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.xcassets";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -170,6 +175,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.strings";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -180,6 +187,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.strings";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -190,6 +199,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.xcassets";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -200,6 +211,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.storyboard";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -210,6 +223,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.strings";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -220,6 +235,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.xcassets";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -230,6 +247,8 @@
 			compilerSpec = com.apple.compilers.pbxcp;
 			filePatterns = "*.storyboard";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 			);
@@ -316,6 +335,7 @@
 		37DC60301F98D1DA00B7B31C /* config-absolute-paths-direct.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "config-absolute-paths-direct.yml"; sourceTree = "<group>"; };
 		37DC60311F98D1DA00B7B31C /* config-missing-paths.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "config-missing-paths.yml"; sourceTree = "<group>"; };
 		37DC603A1F98E74600B7B31C /* config-absolute-paths-prefix.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = "config-absolute-paths-prefix.yml"; sourceTree = "<group>"; };
+		4773395523D6F1560019806B /* Combinable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinable.swift; sourceTree = "<group>"; };
 		4CBF21A0D5701D1232758A8C /* Pods-SwiftGenKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGenKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGenKit/Pods-SwiftGenKit.release.xcconfig"; sourceTree = "<group>"; };
 		4D5D3E5746871F59AC9CA625 /* Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGenKit_SwiftGenKit_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A8FC9E0F4B4EF9E07633BF2 /* Pods-swiftgen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftgen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swiftgen/Pods-swiftgen.debug.xcconfig"; sourceTree = "<group>"; };
@@ -783,6 +803,7 @@
 				DDD2D708210F293E00D678E0 /* YAML.swift */,
 				C322626E21012C42001AC9CD /* Bool.swift */,
 				DD15F100213C3DDF00D081C7 /* YamsSerialization.swift */,
+				4773395523D6F1560019806B /* Combinable.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -978,7 +999,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = AliSoftware;
 				TargetAttributes = {
 					09A87B4F1BCCA2C600D9B9F5 = {
@@ -1008,6 +1029,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1399,6 +1421,7 @@
 				234F7E7E1DEBD765001B3C10 /* Path+Commander.swift in Sources */,
 				234F7E7F1DEBD765001B3C10 /* TemplatesCommands.swift in Sources */,
 				09D009FF1F9BB3450026A755 /* ConfigEntry.swift in Sources */,
+				4773395623D6F1560019806B /* Combinable.swift in Sources */,
 				DDB0B9C2209E390700E467C2 /* ConfigOutput.swift in Sources */,
 				379C7E8D1F8ECB2400267096 /* Path+AppSupport.swift in Sources */,
 				0934050E1F815A8C00187787 /* ParserCLI.swift in Sources */,
@@ -1539,6 +1562,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1593,6 +1617,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
