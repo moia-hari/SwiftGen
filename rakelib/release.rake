@@ -87,7 +87,7 @@ namespace :release do
     )
 
     # Check README instructions
-    readme_pod_version = first_match_in_file('README.md', /pod 'SwiftGen', '(.*)'/) || ['0.0','0.0']
+    readme_pod_version = first_match_in_file('README.md', /pod 'SwiftGenPlus', '(.*)'/) || ['0.0','0.0']
     readme_requirement = Gem::Requirement.new(readme_pod_version[1])
     readme_requirement_ok = readme_requirement.satisfied_by?(Gem::Version.new(sg_version))
     results << Utils.table_result(
@@ -137,12 +137,12 @@ namespace :release do
     Utils.print_header "Releasing version #{v} on GitHub"
     puts changelog
 
-    json = post('https://api.github.com/repos/moia-hari/SwiftGen/releases', 'application/json') do |req|
+    json = post('https://api.github.com/repos/moia-hari/SwiftGenPlus/releases', 'application/json') do |req|
       req.body = { :tag_name => v, :name => v, :body => changelog, :draft => false, :prerelease => false }.to_json
     end
 
-    upload_url = json['upload_url'].gsub(/\{.*\}/, "?name=swiftgen-#{v}.zip")
-    zipfile = "build/swiftgen-#{v}.zip"
+    upload_url = json['upload_url'].gsub(/\{.*\}/, "?name=swiftgenplus-#{v}.zip")
+    zipfile = "build/swiftgenplus-#{v}.zip"
     zipsize = File.size(zipfile)
 
     Utils.print_header "Uploading ZIP (#{zipsize} bytes)"
@@ -169,7 +169,7 @@ namespace :release do
     Dir.chdir(formulas_dir) do
       sh 'git checkout master'
       sh 'git pull'
-      sh "git checkout -b swiftgen-#{tag} origin/master"
+      sh "git checkout -b swiftgenplus-#{tag} origin/master"
 
       formula_file = "#{formulas_dir}/Formula/swiftgen.rb"
       formula = File.read(formula_file)
@@ -187,9 +187,9 @@ namespace :release do
 
       Utils.print_header 'Pushing to Homebrew'
       sh "git add #{formula_file}"
-      sh "git commit -m 'swiftgen #{tag}'"
-      sh "git push -u AliSoftware swiftgen-#{tag}"
-      sh "open 'https://github.com/Homebrew/homebrew-core/compare/master...AliSoftware:swiftgen-#{tag}?expand=1'"
+      sh "git commit -m 'swiftgenplus #{tag}'"
+      sh "git push -u AliSoftware swiftgenplus-#{tag}"
+      sh "open 'https://github.com/Homebrew/homebrew-core/compare/master...AliSoftware:swiftgenplus-#{tag}?expand=1'"
     end
   end
 end

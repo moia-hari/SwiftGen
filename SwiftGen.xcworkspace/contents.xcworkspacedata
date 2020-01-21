@@ -5,8 +5,7 @@
       location = "container:"
       name = "Pod Metadata">
       <FileRef
-         location = "group:SwiftGen.podspec"
-         assignedFileDataType = "public.ruby-script">
+         location = "group:SwiftGenPlus.podspec">
       </FileRef>
       <FileRef
          location = "group:Rakefile"
@@ -22,7 +21,7 @@
       </FileRef>
    </Group>
    <FileRef
-      location = "group:SwiftGen.xcodeproj">
+      location = "group:/Users/hari/Work/WorkSpace/Fork/SwiftGen/SwiftGen.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

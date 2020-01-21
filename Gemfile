@@ -10,7 +10,7 @@ end
 
 # In addition to :build, for contributing
 group :development do
-	gem 'cocoapods', '~> 1.6.0.rc.1'
+        gem "fourflusher", :git => 'https://github.com/CocoaPods/fourflusher', :branch => 'master'
 	gem 'rubocop', '~> 0.63'
 	gem 'danger'
 end
