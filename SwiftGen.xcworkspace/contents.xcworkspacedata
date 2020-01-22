@@ -5,7 +5,7 @@
       location = "container:"
       name = "Pod Metadata">
       <FileRef
-         location = "group:SwiftGenPlus.podspec">
+         location = "group:/Users/hari/Work/WorkSpace/Fork/SwiftGen/SwiftGenPlus.podspec">
       </FileRef>
       <FileRef
          location = "group:Rakefile"

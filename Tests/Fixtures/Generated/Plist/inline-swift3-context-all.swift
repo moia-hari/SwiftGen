@@ -37,7 +37,7 @@ internal enum PlistFiles {
     internal static let uiSupportedInterfaceOrientationsIpad: [String] = ["UIInterfaceOrientationLandscapeLeft", "UIInterfaceOrientationLandscapeRight", "UIInterfaceOrientationPortraitUpsideDown", "UIInterfaceOrientationPortrait"]
     internal static let userAmbiguousInteger: Bool = true
     internal static let userBoolean: Bool = false
-    internal static let userDate: Date = Date(timeIntervalSinceReferenceDate: 547184366)
+    internal static let userDate = Date(timeIntervalSinceReferenceDate: 547184366)
     internal static let userFloat: Double = 3.14
     internal static let userInteger: Int = 5
   }

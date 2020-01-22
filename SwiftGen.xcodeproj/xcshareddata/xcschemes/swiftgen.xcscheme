@@ -65,6 +65,11 @@
                BlueprintName = "Templates UnitTests"
                ReferencedContainer = "container:SwiftGen.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "PlistTests">
+               </Test>
+            </SkippedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO"

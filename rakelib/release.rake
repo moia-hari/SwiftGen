@@ -32,9 +32,9 @@ namespace :release do
       'Please install bundler using `gem install bundler` and run `bundle install` first.'
     )
 
-    # Extract version from SwiftGen.podspec
-    sg_version = Utils.podspec_version('SwiftGen')
-    Utils.table_info('SwiftGen.podspec', sg_version)
+    # Extract version from SwiftGenPlus.podspec
+    sg_version = Utils.podspec_version('SwiftGenPlus')
+    Utils.table_info('SwiftGenPlus.podspec', sg_version)
 
     # Extract version from SwiftGenKit.podspec
     sgk_version = Utils.podspec_version('SwiftGenKit')
@@ -42,8 +42,8 @@ namespace :release do
 
     results << Utils.table_result(
       sg_version == sgk_version,
-      "SwiftGen & SwiftGenKit versions equal",
-      "Please ensure SwiftGen & SwiftGenKit use the same version numbers"
+      "SwiftGenPlus & SwiftGenKit versions equal",
+      "Please ensure SwiftGenPlus & SwiftGenKit use the same version numbers"
     )
 
     # Check if version matches the SwiftGen-Info.plist
@@ -100,7 +100,7 @@ namespace :release do
   end
 
   task :confirm do
-    version = Utils.podspec_version('SwiftGen')
+    version = Utils.podspec_version('SwiftGenPlus')
     print "Release version #{version} [Y/n]? "
     exit 2 unless STDIN.gets.chomp == 'Y'
   end
@@ -108,7 +108,7 @@ namespace :release do
   desc 'Create a zip containing all the prebuilt binaries'
   task :zip => ['cli:clean', 'cli:install'] do
     `cp LICENCE README.md CHANGELOG.md build/swiftgen`
-    `cd build/swiftgen; zip -r ../swiftgen-#{Utils.podspec_version('SwiftGen')}.zip .`
+    `cd build/swiftgen; zip -r ../swiftgenplus-#{Utils.podspec_version('SwiftGenPlus')}.zip .`
   end
 
   def post(url, content_type)
@@ -131,7 +131,7 @@ namespace :release do
 
   desc 'Upload the zipped binaries to a new GitHub release'
   task :github => :zip do
-    v = Utils.podspec_version('SwiftGen')
+    v = Utils.podspec_version('SwiftGenPlus')
 
     changelog = `sed -n /'^## #{v}$'/,/'^## '/p CHANGELOG.md`.gsub(/^## .*$/, '').strip
     Utils.print_header "Releasing version #{v} on GitHub"
@@ -156,13 +156,13 @@ namespace :release do
   desc 'pod trunk push SwiftGen to CocoaPods'
   task :cocoapods do
     Utils.print_header 'Pushing pod to CocoaPods Trunk'
-    sh 'bundle exec pod trunk push SwiftGen.podspec'
+    sh 'bundle exec pod trunk push SwiftGenPlus.podspec'
   end
 
   desc 'Release a new version on Homebrew and prepare a PR'
   task :homebrew do
     Utils.print_header 'Updating Homebrew Formula'
-    tag = Utils.podspec_version('SwiftGen')
+    tag = Utils.podspec_version('SwiftGenPlus')
     sh 'git pull --tags'
     revision = `git rev-list -1 #{tag}`.chomp
     formulas_dir = Bundler.with_clean_env { `brew --repository homebrew/core`.chomp }
@@ -187,7 +187,7 @@ namespace :release do
 
       Utils.print_header 'Pushing to Homebrew'
       sh "git add #{formula_file}"
-      sh "git commit -m 'swiftgenplus #{tag}'"
+      sh "git commit -m 'swiftgen #{tag}'"
       sh "git push -u AliSoftware swiftgenplus-#{tag}"
       sh "open 'https://github.com/Homebrew/homebrew-core/compare/master...AliSoftware:swiftgenplus-#{tag}?expand=1'"
     end
